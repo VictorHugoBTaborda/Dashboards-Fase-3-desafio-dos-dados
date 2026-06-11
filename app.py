@@ -6,17 +6,6 @@ import plotly.express as px
 # --- ESTILO (O equivalente ao seu style.css) ---
 st.set_page_config(page_title="Dashboard Logístico", layout="wide")
 
-# Injetando um CSS personalizado para deixar o visual ainda mais profissional
-st.markdown("""
-    <style>
-    .main { background-color: #f8f9fa; }
-    .metric-card {
-        background-color: white;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    }
-    </style>
 """, unsafe_allowed_html=True)
 
 # --- ESTRUTURA DA PÁGINA (O equivalente ao seu index.html) ---
